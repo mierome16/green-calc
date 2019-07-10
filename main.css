@@ -1,0 +1,50 @@
+html {box-sizing:border-box;}
+*,*::before,*::after {box-sizing: inherit;}
+
+#calculator {
+    width: 800px;
+    height: 1000px;
+    margin: auto;
+    background-color: black;
+    border: 3px solid gray;
+}
+header {
+    display: flex;
+}
+header>input {
+    background:rgb(86,168,69);
+    border: 1px solid rgb(80,100,80);
+    font-size: 50px;
+    text-align: end;
+    padding: 8px;
+    color: white;
+}
+button {
+    height: 200px;
+    width: 200px;
+    padding: 3px;
+    font-size: 50px;
+    color:white;
+    background:rgb(86,168,69);
+    border: 1px solid rgb(80,100,80)
+}
+#result {
+    width: 600px;
+    height: 200px;
+}
+.numbers {
+    display:flex;
+    flex-direction: row;
+    width: 600px;
+    height: 800px;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 600px;;
+    bottom: 800px;
+}
+aside>button {
+    background: rgb(114,183,101)
+}
